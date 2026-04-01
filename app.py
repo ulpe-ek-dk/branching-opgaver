@@ -1,7 +1,7 @@
 @app.route("/api/devices", methods=["GET"])
 def get_devices():
     """
-    Vis alle registrerede IoT enheder
+    Vis alle registrerede IoT enheder - test
     """
     conn = get_connection()
     cursor = conn.cursor(dictionary=True)
