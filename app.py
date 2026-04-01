@@ -14,7 +14,7 @@ def get_devices():
 @app.route("/api/devices3", methods=["GET"])
 def get_devices():
     """
-    Vis 3 vindmøller
+    Vis 3 vindmøller - test - test
     """
     conn = get_connection()
     cursor = conn.cursor(dictionary=True)
